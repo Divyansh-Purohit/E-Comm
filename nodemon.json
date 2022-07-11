@@ -1,0 +1,10 @@
+{
+  "env": {
+    "MONGO_USER": "divyansh_3438",
+    "MONGO_PASSWORD": "Siddharth%401993",
+    "MONGO_DEFAULT_DATABASE": "shop",
+    "STRIPE_KEY": "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",
+    "NODEMAILER_SG_KEY": "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",
+    "ADMIN_EMAIL": "dp2012div@gmail.com"
+  }
+}

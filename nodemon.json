@@ -3,7 +3,7 @@
     "MONGO_USER": "divyansh_3438",
     "MONGO_PASSWORD": "Siddharth%401993",
     "MONGO_DEFAULT_DATABASE": "shop",
-    "STRIPE_KEY": "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",
+    "STRIPE_KEY": "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",
     "NODEMAILER_SG_KEY": "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",
     "ADMIN_EMAIL": "dp2012div@gmail.com"
   }

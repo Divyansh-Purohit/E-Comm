@@ -23,6 +23,7 @@ exports.getIndex = (req, res, next) => {
   let totalItems;
 
   Product.find()
+    .sort({ title: 1 })
     .countDocuments()
     .then((numProducts) => {
       totalItems = numProducts;
@@ -213,7 +214,7 @@ exports.postOrder = (req, res, next) => {
         to: "dpurohit_be19@thapar.edu",
         from: config.get(process.env.ADMIN_EMAIL),
         subject: "New Order",
-        html: "<p>New Order Received</p>",
+        html: `<p>New Order Received from ${user.email}</p>`,
       });
       return req.user.clearCart();
     })
